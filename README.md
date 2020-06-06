@@ -1,9 +1,8 @@
 
 # Machine Learning and Data Science Blueprints for Finance - Jupyter Notebooks
-==========================
 
 This project aims at teaching you the fundamentals of Machine Learning in
-python. It contains the example code and solutions to the exercises in the O'Reilly book *Machine Learning and Data
+python. It contains the code to the case studies in the O'Reilly book *Machine Learning and Data
 Science Blueprints for Finance*
 
 Simply open the [Jupyter](http://jupyter.org/) notebooks you are interested in by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below.
