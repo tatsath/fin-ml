@@ -48,7 +48,19 @@ Installing Anaconda, should install most of the commonly used libraries in the c
 
 These are the commands you need to type in a terminal if you want to use pip to install. Note: in all the following commands, if you chose to use Python 2 rather than Python 3, you must replace `pip3` with `pip`, and `python3` with `python`.
 
-First you need to make sure you have the latest version of pip installed:
+First you need to make sure you have the latest version of pip installed. If you are on the latest version of Python, pip should already be installed. You can check using the following command.
+
+    $ pip -V
+
+If you do not have pip install, you can run the following command on Linux
+
+    $ sudo apt-get install python3-pip
+
+Or download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) and install it on Windows using
+
+    $ python3 get-pip.py
+
+If you have `pip` already installed, it might be a good idea to upgrade it.
 
     $ python3 -m pip install --user --upgrade pip
 
