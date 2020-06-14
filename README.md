@@ -85,6 +85,13 @@ If you want to try to install a list of packages from a file. You can use the fo
 
 Great! You're all set, you just need to start Jupyter now.
 
+## Installing Package models
+
+For the chapter on Natural Language Processing. We will be using the `spaCy` python package. Installing `spaCy` does not install the language models used. In order to do that, we need to open up python and install it ourselves using the following commands.
+
+    $ python -m spacy download en_core_web_lg
+
+
 ## Starting Jupyter
 Okay! You can now start Jupyter, simply type:
 
