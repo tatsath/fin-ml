@@ -111,3 +111,20 @@ Okay! You can now start Jupyter, simply type:
 
 This should open up your browser, and you should see Jupyter's tree view, with the contents of the current directory. If your browser does not open automatically, visit [127.0.0.1:8888](http://127.0.0.1:8888/tree). Click on `index.ipynb` to get started!
 
+
+## Installing Libraries in Jupyter using pip
+
+If you install a library and are not able to import it on the jupyter notebook. You might be installing them on the system python environment. We can use Jupyter notebooks to install packages using the ! symbol at the start. THe following libraries are the ones that are required outside the latest Anaconda package as of now.
+
+    $ !pip install spacy
+    $ !pip install pandas-datareader
+    $ !pip install keras
+    $ !pip install dash
+    $ !pip install dash
+    $ !pip install dash_daq
+    $ !pip install quandl
+    $ !pip install cvxopt
+    
+    
+    
+
