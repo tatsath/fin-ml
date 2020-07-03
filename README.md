@@ -35,21 +35,38 @@ On Linux, unless you know what you are doing, you should use your system's packa
     $ sudo apt-get update
     $ sudo apt-get install python3 python3-pip
 
-Another option is to download and install [Anaconda](https://www.continuum.io/downloads). This is a package that includes both Python and many scientific libraries. You should prefer the Python 3 version.
+## Installing Anaconda
 
-If you choose to use Anaconda, read the next section, or else jump to the [Using pip](#using-pip) section.
+After installing Python, we recommend installing [Anaconda](https://docs.anaconda.com/anaconda/install/). This is a package that includes both Python and many scientific libraries. You should prefer the Python 3 version.
 
 
 ## Using pip
-If you are not using Anaconda, you need to install several scientific Python libraries that are necessary for this project, in particular NumPy, Matplotlib, Pandas, Jupyter and TensorFlow (and a few others). For this, you can either use Python's integrated packaging system, pip, or you may prefer to use your system's own packaging system (if available, e.g. on Linux, or on MacOSX when using MacPorts or Homebrew). The advantage of using pip is that it is easy to create multiple isolated Python environments with different libraries and different library versions (e.g. one environment for each project). The advantage of using your system's packaging system is that there is less risk of having conflicts between your Python libraries and your system's other packages. Since I have many projects with different library requirements, I prefer to use pip with isolated environments. Moreover, the pip packages are usually the most recent ones available, while Anaconda and system packages often lag behind a bit.
 
-These are the commands you need to type in a terminal if you want to use pip to install the required libraries. Note: in all the following commands, if you chose to use Python 2 rather than Python 3, you must replace `pip3` with `pip`, and `python3` with `python`.
+Installing Anaconda, should install most of the commonly used libraries in the case studies. Given that there might be changes to the Anaconda package and some libraries might be out of date, it is a good idea to learn how to install packages in python using pip. 
 
-First you need to make sure you have the latest version of pip installed:
+### Installing pip
+
+These are the commands you need to type in a terminal if you want to use pip to install. Note: in all the following commands, if you chose to use Python 2 rather than Python 3, you must replace `pip3` with `pip`, and `python3` with `python`.
+
+First you need to make sure you have the latest version of pip installed. If you are on the latest version of Python, pip should already be installed. You can check using the following command.
+
+    $ pip -V
+
+If you do not have pip install, you can run the following command on Linux
+
+    $ sudo apt-get install python3-pip
+
+Or download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) and install it on Windows using
+
+    $ python3 get-pip.py
+
+If you have `pip` already installed, it might be a good idea to upgrade it.
 
     $ python3 -m pip install --user --upgrade pip
 
 The `--user` option will install the latest version of pip only for the current user. If you prefer to install it system wide (i.e. for all users), you must have administrator rights (e.g. use `sudo python3` instead of `python3` on Linux), and you should remove the `--user` option. The same is true of the command below that uses the `--user` option.
+
+### Creating an environment (optional)
 
 Next, you can optionally create an isolated environment. This is recommended as it makes it possible to have a different environment for each project (e.g. one for this project), with potentially very different libraries, and different versions:
 
@@ -66,11 +83,26 @@ On Windows, the command is slightly different:
 
     $ .\env\Scripts\activate
 
+### Installing Python packages
+
 Next, use pip to install the required python packages. If you are not using virtualenv, you should add the `--user` option (alternatively you could install the libraries system-wide, but this will probably require administrator rights, e.g. using `sudo pip3` instead of `pip3` on Linux).
+
+The following command is used to install python package with a particular version.
+
+    $ pip3 install <PACKAGE>==<VERSION>
+
+If you want to try to install a list of packages from a file. You can use the following command.
 
     $ python3 -m pip install --upgrade -r requirements.txt
 
 Great! You're all set, you just need to start Jupyter now.
+
+## Installing Package models
+
+For the chapter on Natural Language Processing. We will be using the `spaCy` python package. Installing `spaCy` does not install the language models used. In order to do that, we need to open up python and install it ourselves using the following commands.
+
+    $ python -m spacy download en_core_web_lg
+
 
 ## Starting Jupyter
 Okay! You can now start Jupyter, simply type:
@@ -78,4 +110,21 @@ Okay! You can now start Jupyter, simply type:
     $ jupyter notebook
 
 This should open up your browser, and you should see Jupyter's tree view, with the contents of the current directory. If your browser does not open automatically, visit [127.0.0.1:8888](http://127.0.0.1:8888/tree). Click on `index.ipynb` to get started!
+
+
+## Installing Libraries in Jupyter using pip
+
+If you install a library and are not able to import it on the jupyter notebook. You might be installing them on the system python environment. We can use Jupyter notebooks to install packages using the ! symbol at the start. THe following libraries are the ones that are required outside the latest Anaconda package as of now.
+
+    $ !pip install spacy
+    $ !pip install pandas-datareader
+    $ !pip install keras
+    $ !pip install dash
+    $ !pip install dash
+    $ !pip install dash_daq
+    $ !pip install quandl
+    $ !pip install cvxopt
+    
+    
+    
 
