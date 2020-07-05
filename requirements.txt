@@ -1,44 +1,71 @@
-beautifulsoup4==4.7.1
-bs4==0.0.1
-ChatterBot==1.0.5
-chatterbot-corpus==1.2.0
-Cython==0.29.6
+##### Core packages
+jupyter==1.0.0
+matplotlib==3.1.3
+numpy==1.18.1
+pandas==1.0.3
+scipy==1.4.1
+
+##### Machine Learning packages
+scikit-learn==0.22
+Keras==2.2.4
+
+
+##### TensorFlow-related packages
+# If you have a TF-compatible GPU and you want to enable GPU support, then
+# replace tensorflow with tensorflow-gpu, and replace tensorflow-serving-api
+# with tensorflow-serving-api-gpu.
+# Your GPU must have CUDA Compute Capability 3.5 or higher support, and
+# you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
+# installation instructions.
+
+tensorflow==2.1.0
+
+# Optional: the TF Serving API library is just needed for chapter 19.
+tensorflow-serving-api==2.1.0
+#tensorflow-serving-api-gpu==2.1.0
+tensorboard==2.1.1
+tensorboard-plugin-profile==2.2.0
+tensorflow-datasets==2.1.0
+tensorflow-hub==0.7.0
+tensorflow-probability==0.9.0
+
+##### Statistics packages
+statsmodels==0.9.0
+
+##### Data Download packages
+pandas-datareader==0.7.0
+Quandl==3.4.8
+
+##### Visualization packages
+matplotlib==3.0.3
+plotly==3.10.0
+seaborn==0.9.0
 dash==1.9.1
+
+##### NLP packages - used in chapter 10
+textblob==0.15.3
+spacy==2.1.9
+nltk==3.4
 #en-core-web-lg==2.1.0
 #en-core-web-sm==2.1.0
-gensim==3.8.2
-ipython==7.6.1
-Keras==2.2.4
-Keras-Applications==1.0.8
-Keras-Preprocessing==1.1.0
-matplotlib==3.0.3
-nbconvert==5.4.1
-nbformat==4.4.0
-nbpresent==3.0.0
-nltk==3.4
-notebook==5.7.8
-numpy==1.16.2
+ChatterBot==1.0.5
+chatterbot-corpus==1.2.0
+
+##### Additional NLP Packages - used in examples/case studies in chapter 10
 openpyxl==2.6.1
-pandas==0.24.2
-pandas-datareader==0.7.0
-pandoc==1.0.2
-pandocfilters==1.4.2
-pdfminer==20191125
-plotly==3.10.0
 pyLDAvis==2.1.2
-pylint==2.3.1
-PyVirtualDisplay==0.2.4
+pdfminer==20191125
+wordcloud==1.6.0
+gensim==3.8.2
 PyYAML==5.1
-Quandl==3.4.8
-regex==2020.4.4
-scikit-learn==0.22.2.post1
-scipy==1.2.1
-seaborn==0.9.0
-sklearn==0.0
-spacy==2.1.9
-statsmodels==0.9.0
-tensorflow==1.13.1
-textblob==0.15.3
-XlsxWriter==1.1.5
-yahoo-finance==1.4.0
-yfinance==0.1.50
+
+##### Additional utilities
+
+# Efficient deployment
+cloudpickle==1.2.2
+
+# Additional utilities used for robo-advisor case study in chapter 5
+dash-core-components==1.8.1
+dash-daq==0.4.0
+cvxopt==1.2.0
+
