@@ -7,11 +7,34 @@ Science Blueprints for Finance*
 
 Simply open the [Jupyter](http://jupyter.org/) notebooks you are interested in by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below.
 
-# Installation
+### Want to play with these notebooks online without having to install anything?
+Use any of the following services.
 
-First, you will need to install [git](https://git-scm.com/), if you don't have it already.
+**WARNING**: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.
 
-Next, clone this repository by opening a terminal and typing the following commands:
+* **Recommended**: open this repository in [Colaboratory](https://colab.research.google.com/github/ageron/handson-ml2/blob/master/):
+<a href="https://colab.research.google.com/github/ageron/handson-ml2/blob/master/"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
+
+* Or open it in [Binder](https://mybinder.org/v2/gh/ageron/handson-ml2/master):
+<a href="https://mybinder.org/v2/gh/ageron/handson-ml2/master"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
+
+  * _Note_: Most of the time, Binder starts up quickly and works great, but when handson-ml2 is updated, Binder creates a new environment from scratch, and this can take quite some time.
+
+* Or open it in [Deepnote](https://beta.deepnote.com/launch?template=data-science&url=https%3A//github.com/tatsath/fin-ml/blob/master/index.ipynb):
+<a href="https://beta.deepnote.com/launch?template=data-science&url=https%3A//github.com/tatsath/fin-ml/blob/master/index.ipynb"><img src="https://www.deepnote.com/static/illustration.png" width="150" /></a>
+
+### Just want to quickly look at some notebooks, without executing any code?
+
+Browse this repository using [jupyter.org's notebook viewer](https://nbviewer.jupyter.org/github/tatsath/fin-ml/blob/master/index.ipynb):
+<a href="https://nbviewer.jupyter.org/github/tatsath/fin-ml/blob/master/index.ipynb"><img src="https://jupyter.org/assets/nav_logo.svg" width="150" /></a>
+
+### Want to install this project on your own machine?
+
+Start by installing [Anaconda](https://www.anaconda.com/distribution/) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)), [git](https://git-scm.com/downloads), and if you have a TensorFlow-compatible GPU, install the [GPU driver](https://www.nvidia.com/Download/index.aspx).
+
+Next, clone this project by opening a terminal and typing the following commands (do not type the first `$` signs on each line, they just indicate that these are terminal commands):
+
+
 
     $ cd $HOME  # or any other development directory you prefer
     $ git clone https://github.com/tatsath/fin-ml.git
