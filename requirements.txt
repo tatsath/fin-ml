@@ -38,6 +38,7 @@ sklearn==0.0
 spacy==2.1.9
 statsmodels==0.9.0
 tensorflow==1.13.1
+textblob==0.15.3
 XlsxWriter==1.1.5
 yahoo-finance==1.4.0
 yfinance==0.1.50
