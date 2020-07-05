@@ -4,8 +4,8 @@ ChatterBot==1.0.5
 chatterbot-corpus==1.2.0
 Cython==0.29.6
 dash==1.9.1
-en-core-web-lg==2.1.0
-en-core-web-sm==2.1.0
+#en-core-web-lg==2.1.0
+#en-core-web-sm==2.1.0
 gensim==3.8.2
 ipython==7.6.1
 Keras==2.2.4
