@@ -36,8 +36,7 @@ statsmodels==0.9.0
 pandas-datareader==0.7.0
 Quandl==3.4.8
 
-##### Visualization packages
-matplotlib==3.0.3
+##### Additional Visualization packages
 plotly==3.10.0
 seaborn==0.9.0
 dash==1.9.1
