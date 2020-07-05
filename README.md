@@ -12,11 +12,11 @@ Use any of the following services.
 
 **WARNING**: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.
 
-* **Recommended**: open this repository in [Colaboratory](https://colab.research.google.com/github/ageron/handson-ml2/blob/master/):
-<a href="https://colab.research.google.com/github/ageron/handson-ml2/blob/master/"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
+* **Recommended**: open this repository in [Colaboratory](https://colab.research.google.com/github/tatsath/fin-ml/blob/master):
+<a href="https://colab.research.google.com/github/tatsath/fin-ml/blob/master"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
 
-* Or open it in [Binder](https://mybinder.org/v2/gh/ageron/handson-ml2/master):
-<a href="https://mybinder.org/v2/gh/ageron/handson-ml2/master"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
+* Or open it in [Binder](https://mybinder.org/v2/gh/tatsath/fin-ml/master):
+<a href="https://mybinder.org/v2/gh/tatsath/fin-ml/master"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
 
   * _Note_: Most of the time, Binder starts up quickly and works great, but when handson-ml2 is updated, Binder creates a new environment from scratch, and this can take quite some time.
 
