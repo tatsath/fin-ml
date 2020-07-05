@@ -28,6 +28,7 @@ plotly==3.10.0
 pyLDAvis==2.1.2
 pylint==2.3.1
 PyVirtualDisplay==0.2.4
+PyYAML==5.1
 Quandl==3.4.8
 regex==2020.4.4
 scikit-learn==0.22.2.post1
