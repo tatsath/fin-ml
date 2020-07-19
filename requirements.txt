@@ -39,24 +39,24 @@ Quandl==3.4.8
 ##### Additional Visualization packages
 plotly==3.10.0
 seaborn==0.9.0
-dash==1.9.1
+#dash==1.9.1
 
 ##### NLP packages - used in chapter 10
-textblob==0.15.3
-spacy==2.1.9
-nltk==3.4
+#textblob==0.15.3
+#spacy==2.1.9
+#nltk==3.4
 #en-core-web-lg==2.1.0
 #en-core-web-sm==2.1.0
 #ChatterBot==1.0.5
 #chatterbot-corpus==1.2.0
 
 ##### Additional NLP Packages - used in examples/case studies in chapter 10
-openpyxl==2.6.1
-pyLDAvis==2.1.2
-pdfminer==20191125
-wordcloud==1.6.0
-gensim==3.8.2
-PyYAML==5.1
+#openpyxl==2.6.1
+#pyLDAvis==2.1.2
+#pdfminer==20191125
+#wordcloud==1.6.0
+#gensim==3.8.2
+#PyYAML==5.1
 
 ##### Additional utilities
 
@@ -64,7 +64,7 @@ PyYAML==5.1
 #cloudpickle==1.2.2
 
 # Additional utilities used for robo-advisor case study in chapter 5
-dash-core-components==1.8.1
-dash-daq==0.4.0
+#dash-core-components==1.8.1
+#dash-daq==0.4.0
 #cvxopt==1.2.0
 
