@@ -66,5 +66,5 @@ PyYAML==5.1
 # Additional utilities used for robo-advisor case study in chapter 5
 dash-core-components==1.8.1
 dash-daq==0.4.0
-cvxopt==1.2.0
+#cvxopt==1.2.0
 
