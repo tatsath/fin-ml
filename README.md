@@ -40,7 +40,7 @@ Next, clone this project by opening a terminal and typing the following commands
     $ git clone https://github.com/tatsath/fin-ml.git
     $ cd fin-ml
 
-If you do not want to install git, you can instead download [master.zip](https://github.com/tatsath/fin-ml/archive/master.zip), unzip it, rename the resulting directory to `handson-ml` and move it to your development directory.
+If you do not want to install git, you can instead download [master.zip](https://github.com/tatsath/fin-ml/archive/master.zip), unzip it, rename the resulting directory to `fin-ml` and move it to your development directory.
 
 If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries listed in `requirements.txt` and jump to the [Starting Jupyter](#starting-jupyter) section. If you need detailed instructions, please read on.
 
