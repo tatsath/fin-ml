@@ -18,7 +18,7 @@ Use any of the following services.
 * Or open it in [Binder](https://mybinder.org/v2/gh/tatsath/fin-ml/master):
 <a href="https://mybinder.org/v2/gh/tatsath/fin-ml/master"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
 
-  * _Note_: Most of the time, Binder starts up quickly and works great, but when handson-ml2 is updated, Binder creates a new environment from scratch, and this can take quite some time.
+  * _Note_: Most of the time, Binder starts up quickly and works great, but when the github repository of this book is updated, Binder creates a new environment from scratch, and this can take quite some time.
 
 * Or open it in [Deepnote](https://beta.deepnote.com/launch?template=data-science&url=https%3A//github.com/tatsath/fin-ml/blob/master/index.ipynb):
 <a href="https://beta.deepnote.com/launch?template=data-science&url=https%3A//github.com/tatsath/fin-ml/blob/master/index.ipynb"><img src="https://www.deepnote.com/static/illustration.png" width="150" /></a>
