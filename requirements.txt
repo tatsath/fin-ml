@@ -44,7 +44,7 @@ dash==1.9.1
 ##### NLP packages - used in chapter 10
 textblob==0.15.3
 spacy==2.1.9
-nltk==3.4
+nltk==3.4.5
 #en-core-web-lg==2.1.0
 #en-core-web-sm==2.1.0
 #ChatterBot==1.0.5
