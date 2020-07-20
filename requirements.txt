@@ -35,6 +35,7 @@ statsmodels==0.9.0
 ##### Data Download packages
 pandas-datareader==0.7.0
 Quandl==3.4.8
+xlrd==1.2.0
 
 ##### Additional Visualization packages
 plotly==3.10.0
