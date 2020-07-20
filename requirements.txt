@@ -1,12 +1,12 @@
 ##### Core packages
 jupyter==1.0.0
-matplotlib==3.1.3
-numpy==1.18.1
-pandas==1.0.3
-scipy==1.4.1
+matplotlib==3.0.3
+numpy==1.16.2
+pandas==0.24.2
+scipy==1.2.1
 
 ##### Machine Learning packages
-scikit-learn==0.22
+scikit-learn==0.22.2
 Keras==2.2.4
 
 
@@ -18,12 +18,12 @@ Keras==2.2.4
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
 
-tensorflow==2.1.0
+tensorflow==1.13.1
 
 # Optional: the TF Serving API library is just needed for chapter 19.
 tensorflow-serving-api==2.1.0
 #tensorflow-serving-api-gpu==2.1.0
-tensorboard==2.1.1
+tensorboard==1.13.1
 tensorboard-plugin-profile==2.2.0
 tensorflow-datasets==2.1.0
 tensorflow-hub==0.7.0
