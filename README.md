@@ -4,6 +4,8 @@
 This github repository contains the code to the case studies in the O'Reilly book *Machine Learning and Data
 Science Blueprints for Finance*
 
+<img src="https://images-na.ssl-images-amazon.com/images/I/51EhsIZvh7L._SX379_BO1,204,203,200_.jpg" title="book" width="150" />
+
 Simply open the [Jupyter](http://jupyter.org/) notebooks you are interested in by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below.
 
 ### Want to play with these notebooks online without having to install anything?
