@@ -20,7 +20,7 @@ Use any of the following services.
 * Open this repository in [Colaboratory](https://colab.research.google.com/github/tatsath/fin-ml/blob/master):
 <a href="https://colab.research.google.com/github/tatsath/fin-ml/blob/master"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
 
-  * _Note_: Google colab supports GPU and can be quite fast. Ho is a hosting service and the directories of the book will open exactly like they open on yur local machine with no installation required. However, the linkages to data file located in the folders of the git directory may not work. Upload the data files seperately while running the jupyter notebooks on google colab.
+  * _Note_: Google colab supports GPU and can be quite fast. However, the linkages to data file located in the folders of the git directory may not work. Upload the data files seperately while running the jupyter notebooks on google colab.
 
 ### Just want to quickly look at some notebooks, without executing any code?
 
