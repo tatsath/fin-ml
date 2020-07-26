@@ -12,16 +12,15 @@ Use any of the following services.
 
 **WARNING**: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.
 
-* **Recommended**: open this repository in [Colaboratory](https://colab.research.google.com/github/tatsath/fin-ml/blob/master):
-<a href="https://colab.research.google.com/github/tatsath/fin-ml/blob/master"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
-
-* Or open it in [Binder](https://mybinder.org/v2/gh/tatsath/fin-ml/master):
+* **Recommended**: Open it in [Binder](https://mybinder.org/v2/gh/tatsath/fin-ml/master):
 <a href="https://mybinder.org/v2/gh/tatsath/fin-ml/master"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
 
-  * _Note_: Most of the time, Binder starts up quickly and works great, but when the github repository of this book is updated, Binder creates a new environment from scratch, and this can take quite some time.
+  * _Note_: Binder is a hosting service and the directories of the book will open exactly like they open on your local machine with no installation required. The connection between different files within the folder will work seamlessly. Most of the time, Binder starts up quickly and works great, but when the github repository of this book is updated, Binder creates a new environment from scratch, and this can take quite some time. Also, some of the case study, specially that require more cache data might be slow.
+  
+* Open this repository in [Colaboratory](https://colab.research.google.com/github/tatsath/fin-ml/blob/master):
+<a href="https://colab.research.google.com/github/tatsath/fin-ml/blob/master"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
 
-* Or open it in [Deepnote](https://beta.deepnote.com/launch?template=data-science&url=https%3A//github.com/tatsath/fin-ml/blob/master/index.ipynb):
-<a href="https://beta.deepnote.com/launch?template=data-science&url=https%3A//github.com/tatsath/fin-ml/blob/master/index.ipynb"><img src="https://www.deepnote.com/static/illustration.png" width="150" /></a>
+  * _Note_: Google colab supports GPU and can be quite fast. Ho is a hosting service and the directories of the book will open exactly like they open on yur local machine with no installation required. However, the linkages to data file located in the folders of the git directory may not work. Upload the data files seperately while running the jupyter notebooks on google colab.
 
 ### Just want to quickly look at some notebooks, without executing any code?
 
@@ -42,7 +41,7 @@ Next, clone this project by opening a terminal and typing the following commands
 
 If you do not want to install git, you can instead download [master.zip](https://github.com/tatsath/fin-ml/archive/master.zip), unzip it, rename the resulting directory to `fin-ml` and move it to your development directory.
 
-If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries listed in `requirements.txt` and jump to the [Starting Jupyter](#starting-jupyter) section. If you need detailed instructions, please read on.
+If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries listed in `requirements.txt` and jump to the [Starting Jupyter](#starting-jupyter) section. If you need detailed instructions, please read on. We would encourage you to stick to the version of the packages in the 'requirement.txt' file.
 
 ## Python & Required Libraries
 Of course, you obviously need Python. Python 3 is already preinstalled on many systems nowadays. You can check which version you have by typing the following command (you may need to replace `python3` with `python`):
