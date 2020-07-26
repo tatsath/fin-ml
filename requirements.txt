@@ -25,7 +25,9 @@ yfinance==0.1.50
 ##### Additional Visualization packages
 plotly==3.10.0
 seaborn==0.9.0
-#dash==1.9.1
+
+#The following additional packages are also used in the case studies.
+#However, the following packages are commented as the installation is time taking and they will be installed from the jupyter notebook of the case studies. 
 
 ##### NLP packages - used in chapter 10
 #textblob==0.15.3
@@ -37,6 +39,7 @@ seaborn==0.9.0
 #chatterbot-corpus==1.2.0
 
 ##### Additional NLP Packages - used in examples/case studies in chapter 10
+
 #openpyxl==2.6.1
 #pyLDAvis==2.1.2
 #pdfminer==20191125
@@ -44,12 +47,9 @@ seaborn==0.9.0
 #gensim==3.8.2
 #PyYAML==5.1
 
-##### Additional utilities
-
-# Efficient deployment
-#cloudpickle==1.2.2
 
 # Additional utilities used for robo-advisor case study in chapter 5
+#dash==1.9.1
 #dash-core-components==1.8.1
 #dash-daq==0.4.0
 #cvxopt==1.2.0
