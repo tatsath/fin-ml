@@ -1,2 +1,5 @@
-
-
+*.psd filter=lfs diff=lfs merge=lfs -text
+Chapter[[:space:]]5[[:space:]]-[[:space:]]Sup.[[:space:]]Learning[[:space:]]-[[:space:]]Regression[[:space:]]and[[:space:]]Time[[:space:]]Series[[:space:]]models/Case[[:space:]]Study[[:space:]]3[[:space:]]-[[:space:]]Investor[[:space:]]Risk[[:space:]]Tolerance[[:space:]]and[[:space:]]Robo-advisors/SCFP2009panel.xlsx filter=lfs diff=lfs merge=lfs -text
+Chapter[[:space:]]6[[:space:]]-[[:space:]]Sup.[[:space:]]Learning[[:space:]]-[[:space:]]Classification[[:space:]]models/CaseStudy1[[:space:]]-[[:space:]]Fraud[[:space:]]Detection/creditcard.csv filter=lfs diff=lfs merge=lfs -text
+Chapter[[:space:]]6[[:space:]]-[[:space:]]Sup.[[:space:]]Learning[[:space:]]-[[:space:]]Classification[[:space:]]models/CaseStudy2[[:space:]]-[[:space:]]Loan[[:space:]]Default[[:space:]]Probability/LoansData.csv.gz filter=lfs diff=lfs merge=lfs -text
+Chapter[[:space:]]6[[:space:]]-[[:space:]]Sup.[[:space:]]Learning[[:space:]]-[[:space:]]Classification[[:space:]]models/CaseStudy3[[:space:]]-[[:space:]]Bitcoin[[:space:]]Trading[[:space:]]Strategy/BitstampData.csv filter=lfs diff=lfs merge=lfs -text
