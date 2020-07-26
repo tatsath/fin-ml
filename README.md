@@ -41,7 +41,7 @@ Next, clone this project by opening a terminal and typing the following commands
 
 If you do not want to install git, you can instead download [master.zip](https://github.com/tatsath/fin-ml/archive/master.zip), unzip it, rename the resulting directory to `fin-ml` and move it to your development directory.
 
-If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries listed in `requirements.txt` and jump to the [Starting Jupyter](#starting-jupyter) section. If you need detailed instructions, please read on.
+If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries listed in `requirements.txt` and jump to the [Starting Jupyter](#starting-jupyter) section. If you need detailed instructions, please read on. We would encourage you to stick to the version of the packages in the 'requirement.txt' file.
 
 ## Python & Required Libraries
 Of course, you obviously need Python. Python 3 is already preinstalled on many systems nowadays. You can check which version you have by typing the following command (you may need to replace `python3` with `python`):
