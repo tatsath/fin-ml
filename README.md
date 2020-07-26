@@ -147,7 +147,6 @@ If you install a library and are not able to import it on the jupyter notebook. 
     $ !pip install quandl
     $ !pip install cvxopt
     
-    
-     "* [Bitcoin Trading Strategy using classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy3%20-%20Bitcoin%20Trading%20Strategy/BitcoinTradingStrategy.ipynb)\n",
+"* [Bitcoin Trading Strategy using classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy3%20-%20Bitcoin%20Trading%20Strategy/BitcoinTradingStrategy.ipynb)\n",
     
 
