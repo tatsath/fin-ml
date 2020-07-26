@@ -152,8 +152,7 @@ If you install a library and are not able to import it on the jupyter notebook. 
 ### Notebooks by Application in Finance 
 
 #### 1. Trading Strategies and Algorithmic Trading
-   [Bitcoin Trading Strategy using classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy3%20-%20Bitcoin%20Trading%20Strategy/BitcoinTradingStrategy.ipynb)
-   
+   [Bitcoin Trading Strategy using classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy3%20-%20Bitcoin%20Trading%20Strategy/BitcoinTradingStrategy.ipynb)\   
    [Bitcoin Trading - Enhancing Speed and Accuracy using dimensionality reduction ](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy3%20-Bitcoin%20Trading%20-%20Enhancing%20Speed%20and%20accuracy/BitcoinTradingEnhancingSpeedAccuracy.ipynb)
    
    [Clustering for Pairs Trading Strategy](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study1%20-%20Clustering%20for%20Pairs%20Trading/ClusteringForPairsTrading.ipynb)
@@ -165,15 +164,15 @@ If you install a library and are not able to import it on the jupyter notebook. 
 #### 2. Portfolio Management and robo-advisors
    [Investor Risk Tolerance and Robo-advisors - using supervised regression](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%203%20-%20Investor%20Risk%20Tolerance%20and%20Robo-advisors/InvestorRiskToleranceAndRoboAdvisor.ipynb)
    
-    [Robo-Advisor Dashboard-powdered by ML](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%203%20-%20Investor%20Risk%20Tolerance%20and%20Robo-advisors/Sample-Robo%20Advisor.ipynb)
+   [Robo-Advisor Dashboard-powdered by ML](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%203%20-%20Investor%20Risk%20Tolerance%20and%20Robo-advisors/Sample-Robo%20Advisor.ipynb)
     
-    [Portfolio Management - Eigen Portfolio - using dimensionality reduction](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy1%20-%20Portfolio%20Management%20-%20Eigen%20Portfolio/PortfolioManagementEigen%20Portfolio.ipynb)
+   [Portfolio Management - Eigen Portfolio - using dimensionality reduction](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy1%20-%20Portfolio%20Management%20-%20Eigen%20Portfolio/PortfolioManagementEigen%20Portfolio.ipynb)
     
-    [Portfolio Management - Clustering Investors](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study2%20-%20Portfolio%20Management%20-%20%20Clustering%20Investors/PortfolioManagementClusteringInvestors.ipynb)
+   [Portfolio Management - Clustering Investors](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study2%20-%20Portfolio%20Management%20-%20%20Clustering%20Investors/PortfolioManagementClusteringInvestors.ipynb)
     
-    [Hierarchial Risk Parity - using clustering](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study3%20-%20Hierarchial%20Risk%20Parity/HierarchicalRiskParity.ipynb)
+   [Hierarchial Risk Parity - using clustering](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study3%20-%20Hierarchial%20Risk%20Parity/HierarchicalRiskParity.ipynb)
     
-    [Portfolio Allocation - using reinforcement learning](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%203%20-%20Portfolio%20Allocation/PortfolioAllocation.ipynb)
+   [Portfolio Allocation - using reinforcement learning](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%203%20-%20Portfolio%20Allocation/PortfolioAllocation.ipynb)
     
  #### 3. Derivatives Pricing and Hedging
    [Derivative Pricing - using supervised regression](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%202%20-%20Derivatives%20Pricing/DerivativesPricing.ipynb)
