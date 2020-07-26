@@ -39,7 +39,7 @@ Next, clone this project by opening a terminal and typing the following commands
     $ git clone https://github.com/tatsath/fin-ml.git
     $ cd fin-ml
 
-If you do not want to install git, you can instead download [master.zip](https://github.com/tatsath/fin-ml/archive/master.zip), unzip it, rename the resulting directory to `fin-ml` and move it to your development directory. Please note that data size of the case studies in chapter 6 are huge and they need to be downloaded seperately from the github directly after the cloning. 
+If you do not want to install git, you can instead download [master.zip](https://github.com/tatsath/fin-ml/archive/master.zip), unzip it, rename the resulting directory to `fin-ml` and move it to your development directory. 
 
 If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries listed in `requirements.txt` and jump to the [Starting Jupyter](#starting-jupyter) section. If you need detailed instructions, please read on. We would encourage you to stick to the version of the packages in the 'requirement.txt' file.
 
