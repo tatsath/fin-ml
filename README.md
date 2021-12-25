@@ -8,10 +8,19 @@ Science Blueprints for Finance*
 
 Simply open the [Jupyter](http://jupyter.org/) notebooks you are interested in by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below.
 
+
+Join slack channel to discuss the book or ML in Finance in general:
+<a href="https://join.slack.com/t/mlfinanceblue-q2l7730/shared_invite/zt-10p9ax2hy-hgYhKxjkhVfU1NJQER2N8A" target="\_blank">
+	<div align="center">
+		<img src=https://github.com/tatsath/tatsath/blob/master/Slack.PNG width="35%"/>
+	</div>
+</a>
+
+
 ### Want to play with these notebooks online without having to install anything?
 Use any of the following services.
 
-**WARNING**: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.
+**WARNING**: Please be aware that these services provide temporary environmets: anything you do will be deleted after a while, so make sure you download any data you care about.
 
 * **Recommended**: Open it in [Binder](https://mybinder.org/v2/gh/tatsath/fin-ml/master):
 <a href="https://mybinder.org/v2/gh/tatsath/fin-ml/master"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
